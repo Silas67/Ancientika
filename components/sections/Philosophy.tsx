@@ -42,7 +42,7 @@ const Philosophy = () => {
         <div className="flex items-end max-sm:flex-col gap-4">
           <div className="relative w-100 h-80 max-sm:w-100 max-sm:h-50">
             <Image
-              src={"/img1.jpg"}
+              src={"/img5.jpg"}
               className="object-cover w-full h-full"
               fill
               alt="Logo"

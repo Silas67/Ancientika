@@ -128,7 +128,7 @@ const Footer = () => {
 
       {/* Logo */}
       <div className="w-full text-center flex items-center justify-center">
-        <h1 className="text-[220px] uppercase zina leading-28">ancientika </h1>
+        <h1 className="text-[300px] uppercase zina leading-28">ancientika </h1>
         <h1 className="text-[40px] uppercase zina leading-16 hidden max-sm:flex absolute bg-background px-4 h-fit">
           ancientika{" "}
         </h1>

@@ -28,7 +28,7 @@ const Hero = () => {
             </motion.span>
 
             <BlurRevealText>
-              <span className="block zina font-black text-8xl uppercase max-sm:text-6xl">
+              <span className="block zina font-black text-9xl uppercase max-sm:text-7xl">
                 refined.
               </span>
             </BlurRevealText>

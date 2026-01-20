@@ -51,7 +51,7 @@ const Orgin = () => {
     <div className="relative w-full h-[280vh] bg-secondary flex items-center flex-col justify-start gap-16 text-white p-8 max-sm:h-[200vh]">
       <div className="w-150 h-80 relative max-sm:w-90 max-sm:h-50">
         <Image
-          src={"/img1.jpg"}
+          src={"/img4.jpg"}
           alt="Image"
           className="object-cover w-full h-full object-top"
           fill

@@ -122,7 +122,7 @@ const Poster = () => {
           ref={img2Ref}
         >
           <Image
-            src={"/img1.jpg"}
+            src={"/img5.jpg"}
             alt="/"
             fill
             className="object-cover w-full h-full "
