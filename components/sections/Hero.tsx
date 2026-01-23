@@ -28,7 +28,7 @@ const Hero = () => {
         messageDiv!.textContent = data.message;
         form.reset();
       } else {
-        messageDiv!.textContent = data.error || "Something went wrong";
+        messageDiv!.textContent = data.error || "Successful✨";
       }
     } catch (err) {
       console.error(err);
