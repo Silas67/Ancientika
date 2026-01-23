@@ -36,12 +36,6 @@ const Header = () => {
           <div>
             <CiUser />
           </div>
-          <div className="relative">
-            <CiShoppingCart />
-            <div className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
-              0
-            </div>
-          </div>
         </div>
       </nav>
     </motion.div>

@@ -35,7 +35,7 @@ const CTA = () => {
     }
   };
   return (
-    <div className="w-full h-[50vh] bg-transparent backdrop-blur-2xl flex items-center justify-center flex-col text-center gap-8">
+    <div className="w-full h-[50vh] bg-primary/50 backdrop-blur-2xl flex items-center justify-center flex-col text-center gap-8">
       <motion.p
         className="zina w-full font-bold cursor-default text-6xl max-sm:text-5xl"
         initial={{ opacity: 0, y: 10, filter: "blur(4px)" }}
@@ -47,10 +47,6 @@ const CTA = () => {
       </motion.p>
       <motion.form
         onSubmit={handleSubmit}
-        initial={{ opacity: 0, y: 10, filter: "blur(4px)" }}
-        whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-        transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
-        viewport={{ once: true }}
         className="flex flex-col w-75 gap-4 clash max-sm:"
       >
         <div className="flex flex-col gap-2">

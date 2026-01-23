@@ -25,12 +25,14 @@ const IntroSm = ({ onComplete }: IntroSmProps) => {
         .to(".box", {
           clipPath: "inset(0% 0% 100% 0%)",
           duration: 2,
+          ease: "expo.inOut",
         })
         .to(
           ".box2",
           {
             clipPath: "inset(100% 0% 0% 0%)",
             duration: 2,
+            ease: "expo.inOut",
           },
           "<",
         );

@@ -28,6 +28,14 @@ const Poster = () => {
     "/img13.jpg",
     "/img14.jpg",
     "/img15.jpg",
+    "/img8.jpg",
+    "/img9.jpg",
+    "/img10.jpg",
+    "/img11.jpg",
+    "/img12.jpg",
+    "/img13.jpg",
+    "/img14.jpg",
+    "/img15.jpg",
   ];
 
   useGSAP(() => {
@@ -35,12 +43,12 @@ const Poster = () => {
 
     gsap.set(images, {
       yPercent: 150,
-      opacity: 0,
+      opacity: 0.5,
     });
 
     gsap.to(images, {
-      yPercent: gsap.utils.random(-250, -600),
-      xPercent: gsap.utils.random(-50, 150),
+      yPercent: gsap.utils.random(-500, -600),
+      xPercent: gsap.utils.random(-50, 50),
       scale: gsap.utils.random(0.8, 1.1),
       opacity: 1,
       ease: "none",
@@ -64,7 +72,7 @@ const Poster = () => {
         ref={wrapperRef}
         className="wrapper h-screen w-full flex flex-col items-center bg-secondary font-sans text-white gap-8 text-center py-12 justify-center"
       >
-        <div className="flex flex-col items-center justify-center gap-4">
+        <div className="flex flex-col items-center justify-center gap-4 opacity-80">
           <motion.h1
             className="zina text-3xl cursor-default"
             initial={{ opacity: 0, y: 10 }}

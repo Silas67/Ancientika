@@ -14,6 +14,7 @@ import Product from "@/components/sections/Product";
 import Intro from "@/components/common/Intro";
 import IntroSm from "@/components/common/IntroSm";
 import CTA from "@/components/sections/CTA";
+import MusicPlayer from "@/components/common/MusicPlayer";
 
 export default function Home() {
   useLenis();
@@ -49,6 +50,7 @@ export default function Home() {
             <Orgin />
             <Product />
             <CTA />
+            <MusicPlayer />
           </main>
 
           <div className="h-screen w-full bg-transparent" />

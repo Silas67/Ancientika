@@ -67,7 +67,7 @@ const Product = () => {
       {/* IMAGE SECTION */}
       <div className="w-full h-[90vh] relative overflow-hidden">
         <Image
-          src="/img6.jpg"
+          src="/img16.jpg"
           alt="Editorial"
           fill
           className="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
