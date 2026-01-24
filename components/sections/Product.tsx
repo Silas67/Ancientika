@@ -17,7 +17,7 @@ const hotspots = [
   {
     id: 1,
     top: "top-70",
-    left: "left-150",
+    left: "left-80",
     topsm: "max-sm:top-20",
     leftsm: "max-sm:left-70",
     img: "/img7.jpg",
@@ -26,7 +26,7 @@ const hotspots = [
   },
   {
     id: 2,
-    top: "top-125",
+    top: "top-100",
     left: "left-30",
     topsm: "max-sm:top-160",
     leftsm: "max-sm:left-40",
