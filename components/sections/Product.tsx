@@ -60,7 +60,7 @@ const Product = () => {
           viewport={{ once: true }}
           className="text-9xl zina max-sm:text-5xl"
         >
-          The Winter Editorial
+          The Harmattan Editorial
         </motion.h1>
       </div>
 
