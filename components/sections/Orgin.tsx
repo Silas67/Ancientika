@@ -48,7 +48,7 @@ const Orgin = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[300vh] bg-secondary flex items-center flex-col justify-start gap-16 text-white p-8 max-sm:h-[200vh] max-[400px]:h-[300vh] cursor-default">
+    <div className="relative w-full h-[300vh] bg-secondary flex items-center flex-col justify-start gap-16 text-white p-8 max-sm:h-[200vh] [375px]:h-[300vh] cursor-default">
       <div className="w-150 min-h-80 relative max-sm:w-90 max-sm:h-50">
         <Image
           src={"/img4.jpg"}
