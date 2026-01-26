@@ -49,7 +49,7 @@ const Hero = () => {
       }
     } catch (err) {
       console.error(err);
-      setMessage("Sucessfully Added");
+      setMessage("Sucessfully Added✨");
     } finally {
       setLoading(false);
     }
